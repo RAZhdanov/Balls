@@ -1,0 +1,29 @@
+﻿Сборка начата 02.03.2017 22:07:15.
+     1>Проект "D:\DSSL_new\DSSL_new\DSSL_new.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         D:\Visual Studio\VS\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\DSSL_new.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DSSL_new.cpp
+         DSSL_new.cpp
+     1>DSSL_new.cpp(164): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>DSSL_new.cpp(292): warning C4018: <: несоответствие типов со знаком и без знака
+     1>DSSL_new.cpp(422): warning C4018: <: несоответствие типов со знаком и без знака
+     1>DSSL_new.cpp(423): warning C4018: <: несоответствие типов со знаком и без знака
+     1>DSSL_new.cpp(455): warning C4018: <: несоответствие типов со знаком и без знака
+       Link:
+         D:\Visual Studio\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\DSSL_new\Release\DSSL_new.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\DSSL_new\Release\DSSL_new.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\DSSL_new\Release\DSSL_new.lib" /MACHINE:X86 /SAFESEH Release\DSSL_new.res
+         Release\Brush.obj
+         Release\Circle.obj
+         Release\Color.obj
+         Release\DSSL_new.obj
+         Release\Pen.obj
+         Release\Point.obj
+         Release\PolygonEx.obj
+         Release\PolyLineEx.obj
+         Release\stdafx.obj
+         Создание кода
+         Создание кода завершено
+         DSSL_new.vcxproj -> D:\DSSL_new\Release\DSSL_new.exe
+     1>Сборка проекта "D:\DSSL_new\DSSL_new\DSSL_new.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:06.88
